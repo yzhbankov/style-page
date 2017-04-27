@@ -1,0 +1,225 @@
+//colour variables
+$blue: #05A8FA
+$orange: #FA4E05
+$green: #49C562
+$red: #F74040
+$grey: #1A2B33
+
+//shadow variables
+$shadow-one: 0px 3px 15px rgba(0, 0, 0, 0.2)
+$shadow-two: 0px 6px 30px rgba(0, 0, 0, 0.2)
+
+//type scale variables
+$type-scale-one: 6em
+$type-scale-two: 3em
+$type-scale-three: 2.4em
+$type-scale-four: 1.6em
+$type-scale-five: 1.25em
+$type-scale-six: 1em
+$type-scale-seven: 0.8em
+
+//border radius
+$border-radii-one: 2px
+$border-radii-two: 4px
+$border-radii-three: 8px
+
+//spacing scale
+$spacing-scale-one: 8px
+$spacing-scale-two: 16px
+$spacing-scale-three: 24px
+$spacing-scale-four: 32px
+$spacing-scale-five: 40px
+$spacing-scale-six: 48px
+$spacing-scale-seven: 64px
+
+//letter spacing
+$letter-spacing-one: -2px
+$letter-spacing-two: -1px
+$letter-spacing-three: -0.5px
+$letter-spacing-four: 1px
+
+body
+  margin: 0 auto
+  width: 40%
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif
+  font-waight: 400
+  font-size: 21px
+
+//Colours
+.colour
+  width: 100px
+  height: 50px
+  margin: 10px
+
+.colourBlue
+  @extend .colour
+
+  background-color: $blue
+
+.colourOrange
+  @extend .colour
+
+  background-color: $orange
+
+.colourRed
+  @extend .colour
+
+  background-color: $red
+
+.colourGreen
+  @extend .colour
+
+  background-color: $green
+
+.colourGray
+  @extend .colour
+
+  background-color: $grey
+
+.paletteColours
+  display: flex
+
+//Shadows
+.shadowsSet
+  display: flex
+
+.shadowOne
+  box-shadow: $shadow-one
+  width: 100px
+  height: 40px
+  margin: 20px
+
+.shadowTwo
+  box-shadow: $shadow-two
+  width: 100px
+  height: 40px
+  margin: 20px
+
+.shadowThree
+  box-shadow: $shadow-one
+  width: 100px
+  height: 160px
+  margin: 20px
+
+.shadowFour
+  box-shadow: $shadow-two
+  width: 200px
+  height: 400px
+  margin: 20px
+
+//Type Scale
+.typeScaleOne
+  font-size: $type-scale-one
+
+.typeScaleTwo
+  font-size: $type-scale-two
+
+.typeScaleThree
+  font-size: $type-scale-three
+
+.typeScaleFour
+  font-size: $type-scale-four
+
+.typeScaleFive
+  font-size: $type-scale-five
+
+.typeScaleSix
+  font-size: $type-scale-six
+
+.typeScaleSeven
+  font-size: $type-scale-seven
+
+//Border radii
+.borderRadii
+  display: flex
+
+.borderRadiiOne
+  width: 100px
+  height: 80px
+  margin: 10px
+  background-color: $grey
+  border-radius: $border-radii-one
+
+.borderRadiiTwo
+  width: 100px
+  height: 80px
+  margin: 10px
+  background-color: $grey
+  border-radius: $border-radii-two
+
+.borderRadiiThree
+  width: 100px
+  height: 80px
+  margin: 10px
+  background-color: $grey
+  border-radius: $border-radii-three
+
+//Spacing scale
+.spacingScale
+  display: flex
+
+.spacingScaleOuter
+  width: 100px
+  height: 200px
+  background-color: #BCFCFF
+  z-index: 0
+  margin-right: 20px
+
+.spacingScaleOne
+  margin-top: $spacing-scale-one
+  height: 200px - 2 * $spacing-scale-one
+  background-color: $blue
+
+.spacingScaleTwo
+  margin-top: $spacing-scale-two
+  height: 200px - 2 * $spacing-scale-two
+  background-color: $blue
+
+.spacingScaleThree
+  margin-top: $spacing-scale-three
+  height: 200px - 2 * $spacing-scale-three
+  background-color: $blue
+
+.spacingScaleFour
+  margin-top: $spacing-scale-four
+  height: 200px - 2 * $spacing-scale-four
+  background-color: $blue
+
+.spacingScaleFive
+  margin-top: $spacing-scale-five
+  height: 200px - 2 * $spacing-scale-five
+  background-color: $blue
+
+.spacingScaleSix
+  margin-top: $spacing-scale-six
+  height: 200px - 2 * $spacing-scale-six
+  background-color: $blue
+
+.spacingScaleSeven
+  margin-top: $spacing-scale-seven
+  height: 200px - 2 * $spacing-scale-seven
+  background-color: $blue
+
+//Letter spacing
+.letterSpacing
+  display: flex
+
+.letterSpacingOne
+  font-size: 60px
+  margin-right: 20px
+  letter-spacing: $letter-spacing-one
+
+.letterSpacingTwo
+  font-size: 60px
+  margin-right: 20px
+  letter-spacing: $letter-spacing-two
+
+.letterSpacingThree
+  font-size: 60px
+  margin-right: 20px
+  letter-spacing: $letter-spacing-three
+
+.letterSpacingFour
+  font-size: 60px
+  margin-right: 20px
+  letter-spacing: $letter-spacing-four
