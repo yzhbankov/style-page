@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import Radium from 'radium'
+import {borderRadii} from '../style/style.js'
 
+@Radium
 export default class BorderRadii extends Component {
     render() {
         return (
@@ -13,10 +16,10 @@ export default class BorderRadii extends Component {
                     <li>Medium border radius for buttons and inputs and similar components.</li>
                     <li>Large border radius for cards, modals and other large components.</li>
                 </ul>
-                <div className='borderRadii'>
-                    <div className='borderRadiiOne'></div>
-                    <div className='borderRadiiTwo'></div>
-                    <div className='borderRadiiThree'></div>
+                <div style={borderRadii.base}>
+                    <div style={borderRadii.one}></div>
+                    <div style={borderRadii.two}></div>
+                    <div style={borderRadii.three}></div>
                 </div>
                 <div>2px, 4px and 8px border radii</div>
             </div>

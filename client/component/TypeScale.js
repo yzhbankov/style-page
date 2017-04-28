@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import Radium from 'radium'
+import {typeScale} from '../style/style.js'
 
+@Radium
 export default class TypeScale extends Component {
     render() {
         return (
@@ -31,19 +34,19 @@ export default class TypeScale extends Component {
                 </ul>
                 <div>
                     <div>6em</div>
-                    <div className='typeScaleOne'>Extra large</div>
+                    <div style={typeScale.typeScaleOne}>Extra large</div>
                     <div>3em</div>
-                    <div className='typeScaleTwo'>Extra large</div>
+                    <div style={typeScale.typeScaleTwo}>Extra large</div>
                     <div>2.4em</div>
-                    <div className='typeScaleThree'>Extra large</div>
+                    <div style={typeScale.typeScaleThree}>Extra large</div>
                     <div>1.6em</div>
-                    <div className='typeScaleFour'>Extra large</div>
+                    <div style={typeScale.typeScaleFour}>Extra large</div>
                     <div>1.25em</div>
-                    <div className='typeScaleFive'>Extra large</div>
+                    <div style={typeScale.typeScaleFive}>Extra large</div>
                     <div>1em</div>
-                    <div className='typeScaleSix'>Extra large</div>
+                    <div style={typeScale.typeScaleSix}>Extra large</div>
                     <div>0.6em</div>
-                    <div className='typeScaleSeven'>Extra large</div>
+                    <div style={typeScale.typeScaleSeven}>Extra large</div>
                 </div>
             </div>
         );

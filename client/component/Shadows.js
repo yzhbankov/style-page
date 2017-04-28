@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import Radium from 'radium'
+import {shadows} from '../style/style.js'
 
+@Radium
 export default class Shadows extends Component {
     render() {
         return (
@@ -21,11 +24,11 @@ export default class Shadows extends Component {
                     <li>A strong shadow to give perspective to dropdowns/popovers and other similar components.</li>
                     <li>A distant shadow for modal components.</li>
                 </ul>
-                <div className='shadowsSet'>
-                    <div className='shadowOne'></div>
-                    <div className='shadowTwo'></div>
-                    <div className='shadowThree'></div>
-                    <div className='shadowFour'></div>
+                <div style={shadows.shadowsSet}>
+                    <div style={shadows.shadowOne}></div>
+                    <div style={shadows.shadowTwo}></div>
+                    <div style={shadows.shadowThree}></div>
+                    <div style={shadows.shadowFour}></div>
                 </div>
             </div>
         )

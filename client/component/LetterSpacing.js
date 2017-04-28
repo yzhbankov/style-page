@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import Radium from 'radium'
+import {letterSpacing} from '../style/style.js'
 
+@Radium
 export default class LetterSpacing extends Component {
     render() {
         return (
@@ -12,11 +15,11 @@ export default class LetterSpacing extends Component {
 
                 <p>3 or 4 letter spacing values should do the trick.</p>
 
-                <div className='letterSpacing'>
-                    <div><div className='letterSpacingOne'>Aa</div><div>-2px</div></div>
-                    <div><div className='letterSpacingTwo'>Aa</div><div>-1px</div></div>
-                    <div><div className='letterSpacingThree'>Aa</div><div>-0.5px</div></div>
-                    <div><div className='letterSpacingFour'>Aa</div><div>1px</div></div>
+                <div style={letterSpacing.base}>
+                    <div><div style={letterSpacing.one}>Aa</div><div>-2px</div></div>
+                    <div><div style={letterSpacing.two}>Aa</div><div>-1px</div></div>
+                    <div><div style={letterSpacing.three}>Aa</div><div>-0.5px</div></div>
+                    <div><div style={letterSpacing.four}>Aa</div><div>1px</div></div>
                 </div>
             </div>
         )

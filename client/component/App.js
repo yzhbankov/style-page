@@ -11,7 +11,7 @@ import '../style/style.sass'
 
 export default class App extends Component {
     render() {
-        return (<div className="">
+        return (<div>
             <h2>Style page</h2>
             <Colour />
             <Shadows />

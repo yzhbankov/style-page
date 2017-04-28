@@ -13,7 +13,12 @@
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.0",
     "json-loader": "^0.5.4",
     "node-sass": "^4.5.2",
@@ -22,6 +27,7 @@
     "webpack": "^2.4.1"
   },
   "dependencies": {
+    "radium": "^0.18.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }

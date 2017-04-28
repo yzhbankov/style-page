@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import Radium from 'radium'
+import {spacingScale} from '../style/style.js'
 
+@Radium
 export default class SpacingScale extends Component {
     render() {
         return (
@@ -25,14 +28,14 @@ export default class SpacingScale extends Component {
                     often appear alongside each other throughout web products, it helps if they follow the same sizing
                     scale to avoid any unwanted discrepancies.
                 </p>
-                <div className='spacingScale'>
-                    <div className='spacingScaleOuter'><div className='spacingScaleOne'><div>8px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleTwo'><div>16px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleThree'><div>24px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleFour'><div>32px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleFive'><div>40px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleSix'><div>48px</div></div></div>
-                    <div className='spacingScaleOuter'><div className='spacingScaleSeven'><div>64px</div></div></div>
+                <div style={spacingScale.base}>
+                    <div style={spacingScale.outer}><div style={spacingScale.one}><div>8px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.two}><div>16px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.three}><div>24px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.four}><div>32px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.five}><div>40px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.six}><div>48px</div></div></div>
+                    <div style={spacingScale.outer}><div style={spacingScale.seven}><div>64px</div></div></div>
                 </div>
             </div>
         )
