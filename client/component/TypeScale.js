@@ -34,19 +34,19 @@ export default class TypeScale extends Component {
                 </ul>
                 <div>
                     <div>6em</div>
-                    <div style={typeScale.typeScaleOne}>Extra large</div>
+                    <div style={typeScale.one}>Extra large</div>
                     <div>3em</div>
-                    <div style={typeScale.typeScaleTwo}>Extra large</div>
+                    <div style={typeScale.two}>Extra large</div>
                     <div>2.4em</div>
-                    <div style={typeScale.typeScaleThree}>Extra large</div>
+                    <div style={typeScale.three}>Extra large</div>
                     <div>1.6em</div>
-                    <div style={typeScale.typeScaleFour}>Extra large</div>
+                    <div style={typeScale.four}>Extra large</div>
                     <div>1.25em</div>
-                    <div style={typeScale.typeScaleFive}>Extra large</div>
+                    <div style={typeScale.five}>Extra large</div>
                     <div>1em</div>
-                    <div style={typeScale.typeScaleSix}>Extra large</div>
+                    <div style={typeScale.six}>Extra large</div>
                     <div>0.6em</div>
-                    <div style={typeScale.typeScaleSeven}>Extra large</div>
+                    <div style={typeScale.seven}>Extra large</div>
                 </div>
             </div>
         );

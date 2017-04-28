@@ -18,11 +18,11 @@ export default class Colour extends Component {
                     complementary counterpart: orange.</p>
 
                 <div style={colours.paletteColours}>
-                    <div style={[colours.base, colours.colourBlue]}></div>
-                    <div style={[colours.base, colours.colourOrange]}></div>
-                    <div style={[colours.base, colours.colourRed]}></div>
-                    <div style={[colours.base, colours.colourGreen]}></div>
-                    <div style={[colours.base, colours.colourGray]}></div>
+                    <div style={[colours.base, colours.blue]}></div>
+                    <div style={[colours.base, colours.orange]}></div>
+                    <div style={[colours.base, colours.red]}></div>
+                    <div style={[colours.base, colours.green]}></div>
+                    <div style={[colours.base, colours.gray]}></div>
                 </div>
             </div>)
     }

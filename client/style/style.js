@@ -43,19 +43,19 @@ export const colours = {
         height: '50px',
         margin: '10px'
     },
-    colourBlue: {
+    blue: {
         backgroundColor: blue
     },
-    colourOrange: {
+    orange: {
         backgroundColor: orange
     },
-    colourRed: {
+    red: {
         backgroundColor: red
     },
-    colourGreen: {
+    green: {
         backgroundColor: green
     },
-    colourGray: {
+    gray: {
         backgroundColor: grey
     },
     paletteColours: {
@@ -64,28 +64,28 @@ export const colours = {
 };
 
 export const shadows = {
-    shadowsSet: {
+    set: {
         display: 'flex'
     },
-    shadowOne: {
+    one: {
         boxShadow: shadowOne,
         width: '100px',
         height: '40px',
         margin: '20px'
     },
-    shadowTwo: {
+    two: {
         boxShadow: shadowTwo,
         width: '100px',
         height: '40px',
         margin: '20px'
     },
-    shadowThree: {
+    three: {
         boxShadow: shadowOne,
         width: '100px',
         height: '160px',
         margin: '20px'
     },
-    shadowFour: {
+    four: {
         boxShadow: shadowTwo,
         width: '200px',
         height: '400px',
@@ -94,25 +94,25 @@ export const shadows = {
 };
 
 export const typeScale = {
-    typeScaleOne: {
+    one: {
         fontSize: typeScaleOne
     },
-    typeScaleTwo: {
+    two: {
         fontSize: typeScaleTwo
     },
-    typeScaleThree: {
+    three: {
         fontSize: typeScaleThree
     },
-    typeScaleFour: {
+    four: {
         fontSize: typeScaleFour
     },
-    typeScaleFive: {
+    five: {
         fontSize: typeScaleFive
     },
-    typeScaleSix: {
+    six: {
         fontSize: typeScaleSix
     },
-    typeScaleSeven: {
+    seven: {
         fontSize: typeScaleSeven
     }
 };

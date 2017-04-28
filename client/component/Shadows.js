@@ -24,11 +24,11 @@ export default class Shadows extends Component {
                     <li>A strong shadow to give perspective to dropdowns/popovers and other similar components.</li>
                     <li>A distant shadow for modal components.</li>
                 </ul>
-                <div style={shadows.shadowsSet}>
-                    <div style={shadows.shadowOne}></div>
-                    <div style={shadows.shadowTwo}></div>
-                    <div style={shadows.shadowThree}></div>
-                    <div style={shadows.shadowFour}></div>
+                <div style={shadows.set}>
+                    <div style={shadows.one}></div>
+                    <div style={shadows.two}></div>
+                    <div style={shadows.three}></div>
+                    <div style={shadows.four}></div>
                 </div>
             </div>
         )
